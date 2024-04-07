@@ -1,0 +1,39 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "Website layout project using Bootstrap 5.3",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylelint": "npx stylelint \"**/*.{css,scss}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarynaKulibaba/Bootstrap-v.5.3-Marico.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "sass",
+    "BEM",
+    "HTML",
+    "CSS",
+    "responsive"
+  ],
+  "author": "Kulibaba M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarynaKulibaba/Bootstrap-v.5.3-Marico/issues"
+  },
+  "homepage": "https://github.com/MarynaKulibaba/Bootstrap-v.5.3-Marico#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "prettier": "3.2.5",
+    "stylelint": "^16.3.1",
+    "stylelint-config-clean-order": "^5.4.2",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-order": "^6.0.4"
+  }
+}
